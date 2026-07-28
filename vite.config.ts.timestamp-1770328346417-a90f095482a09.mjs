@@ -11,7 +11,7 @@ dotenv.config({ path: ".env" });
 dotenv.config();
 var vite_config_default = defineConfig((config2) => {
   return {
-    define: {
+    define: { https://github.com/stackblitz-labs/bolt.diy
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
     },
     build: {
